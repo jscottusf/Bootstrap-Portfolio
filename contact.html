@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Joel Scott</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/">
+    
 </head>
 <body style="background-image: url('./images/background.png');">
     <!-- Section 1: Navbar-->
@@ -26,15 +27,34 @@
     <br>
     <div class="container-fluid p-0">
         <div class="row align-items-center">
-            <div class="col"></div>
+            <div class="col-sm-2"></div>
 
             <div class="col-8 bg-white p-4">
                 <h2>Contact</h2>
                 <hr>
                 
-            </div>
+                <div class="container">
+                    <form>
+                        <div class="form-group">
+                            <label for="Name">Name</label>
+                            <input type="text" class="form-control" id="Name" placeholder="Name (first and last)...">
+                        </div>
+                        <div class="form-group">
+                            <label for="Email">Email</label>
+                            <input type="text" class="form-control" id="Email" placeholder="Email address...">
+                        </div>
+                        <div class="form-group">
+                            <label for="Message">Message</label>
+                            <textarea class="form-control" id="Message" placeholder="Type your message here..." rows="4"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                
 
-            <div class="col"></div>
+            <div class="col-sm-2"></div>
         </div>
     </div>
     <br><br><br><br>
